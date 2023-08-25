@@ -20,7 +20,7 @@ namespace StudyMentorAPI.Controllers
         }
 
         // GET: api/Advisor/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetAdvisor")]
         public string Get(int id)
         {
             return "value";
