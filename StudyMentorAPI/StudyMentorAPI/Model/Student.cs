@@ -2,8 +2,8 @@ namespace StudyMentorAPI.Model;
 
 public class Student
 {
-   public int Id { get; set; }
-   public string Name { get; set; }
+   public int IdStudent { get; set; }
+   public string NameStudent { get; set; }
    public string Career { get; set; }
    public string University { get; set; }
    public int Cycle { get; set; }
