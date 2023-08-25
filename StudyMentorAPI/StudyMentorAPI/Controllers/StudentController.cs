@@ -26,11 +26,12 @@ namespace StudyMentorAPI.Controllers
             Student student = new Student();
             student.IdStudent = id;
             student.NameStudent = "Student: " + id.ToString();
-            student.Career = "Career" + id.ToString();
+            student.Career = "Career " + id.ToString();
             student.University="University "+id.ToString();
             student.Cycle= 8;
             student.Headquarter="Headquarter "+id.ToString();
             student.Courses="Courses "+id.ToString();
+            return student;
         }
 
         // POST: api/Student
