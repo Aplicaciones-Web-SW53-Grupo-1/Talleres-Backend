@@ -10117,26 +10117,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
+    "C:\\Users\\Jonatan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+      "projectUniqueName": "E:\\Proyectos Backend\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
       "projectName": "StudyMentorAPI",
-      "projectPath": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
-      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
+      "projectPath": "E:\\Proyectos Backend\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+      "packagesPath": "C:\\Users\\Jonatan\\.nuget\\packages\\",
+      "outputPath": "E:\\Proyectos Backend\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Jonatan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10187,7 +10185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

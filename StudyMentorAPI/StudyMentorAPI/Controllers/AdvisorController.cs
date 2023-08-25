@@ -12,18 +12,32 @@ namespace StudyMentorAPI.Controllers
     [ApiController]
     public class AdvisorController : ControllerBase
     {
+        
+        private static List<Advisor> advisors = new List<Advisor>
+        {
+            new Advisor { IdAdvisor = 1, NameAdvisor = "Jose Torres", Area = "Math", Email = "josetorres@gmail.com", 
+                Phone = "465213789", Curriculum = "https://www.linkedin.com/in/josetorres/"},
+            new Advisor { IdAdvisor = 2, NameAdvisor = "Juan Perez", Area = "Programming", Email = "juanperez@gmail.com",
+                Phone = "454812345", Curriculum = "https://www.linkedin.com/in/juanperez/" },
+        };
+        
         // GET: api/Advisor
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Advisor> Get()
         {
-            return new string[] { "value1", "value2" };
+            return advisors;
         }
 
         // GET: api/Advisor/5
         [HttpGet("{id}", Name = "GetAdvisor")]
-        public string Get(int id)
+        public ActionResult<Advisor> Get(int id)
         {
-            return "value";
+            var advisor = advisors.FirstOrDefault(a => a.IdAdvisor == id);
+            if (advisor == null)
+            {
+                return NotFound(); // Devolver 404 si no se encuentra el asesor
+            }
+            return advisor;
         }
 
         // POST: api/Advisor
