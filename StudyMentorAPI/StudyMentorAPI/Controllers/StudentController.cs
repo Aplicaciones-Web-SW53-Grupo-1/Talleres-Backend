@@ -21,9 +21,16 @@ namespace StudyMentorAPI.Controllers
 
         // GET: api/Student/5
         [HttpGet("{id}", Name = "GetStudent")]
-        public string Get(int id)
+        public Student Get(int id)
         {
-            return "value";
+            Student student = new Student();
+            student.IdStudent = id;
+            student.NameStudent = "Student: " + id.ToString();
+            student.Career = "Career" + id.ToString();
+            student.University="University "+id.ToString();
+            student.Cycle= 8;
+            student.Headquarter="Headquarter "+id.ToString();
+            student.Courses="Courses "+id.ToString();
         }
 
         // POST: api/Student

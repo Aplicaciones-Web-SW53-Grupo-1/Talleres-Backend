@@ -10117,24 +10117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Labweb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
       "projectName": "StudyMentorAPI",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Labweb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Labweb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
+      "projectPath": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rafael\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10192,7 +10187,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
