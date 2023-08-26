@@ -42,9 +42,23 @@ namespace StudyMentorAPI.Controllers
 
         // POST: api/Advisor
         [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        
+            public StatusCodeResult Post([FromBody] Advisor advisor)
+            {
+                try
+                {
+                    if (advisor.NameAdvisor == "")
+                        return StatusCode(400);
+                    if (advisor.NameAdvisor == "Admin") throw new Exception("You can´t use this name");
+                    
+                    return StatusCode(201);
+                    
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500);
+                }
+            }
 
         // PUT: api/Advisor/5
         [HttpPut("{id}")]
