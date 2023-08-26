@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudyMentorAPI
 build_property.RootNamespace = StudyMentorAPI
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\migue\Desktop\AplicacionWeb\Talleres-Backend\StudyMentorAPI\StudyMentorAPI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\migue\Desktop\AplicacionWeb\Talleres-Backend\StudyMentorAPI\StudyMentorAPI
+=======
+build_property.ProjectDir = C:\Users\ramos\RiderProjects\Talleres-Backend\StudyMentorAPI\StudyMentorAPI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ramos\RiderProjects\Talleres-Backend\StudyMentorAPI\StudyMentorAPI
+>>>>>>> 683792a76bf6a5f89ee5927ef56f061a68eb6975
 build_property._RazorSourceGeneratorDebug = 

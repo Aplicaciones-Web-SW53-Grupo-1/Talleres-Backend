@@ -12,11 +12,12 @@ namespace StudyMentorAPI.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
+        private static List<Student> students = new List<Student> { };
         // GET: api/Student
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Student> Get()
         {
-            return new string[] { "value1", "value2" };
+            return students;
         }
 
         // GET: api/Student/5
@@ -36,8 +37,26 @@ namespace StudyMentorAPI.Controllers
 
         // POST: api/Student
         [HttpPost]
-        public void Post([FromBody] string value)
+        public StatusCodeResult Post([FromBody] Student student)
         {
+            try
+            {
+                switch (student.NameStudent)
+                {
+                    case "no student":
+                        return StatusCode(400);
+                    case "Exception 500":
+                        throw new Exception("expected error forced by name");
+                    default:
+                        students.Add(student);
+                        return StatusCode(201);
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500);
+            }
+
         }
 
         // PUT: api/Student/5

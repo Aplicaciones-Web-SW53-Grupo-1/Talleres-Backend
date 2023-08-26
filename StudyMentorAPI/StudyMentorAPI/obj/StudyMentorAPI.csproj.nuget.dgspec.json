@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\migue\\Desktop\\AplicacionWeb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj": {}
   },
   "projects": {
@@ -12,21 +13,42 @@
         "projectPath": "C:\\Users\\migue\\Desktop\\AplicacionWeb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\migue\\Desktop\\AplicacionWeb\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
+=======
+    "C:\\Users\\ramos\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ramos\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramos\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+        "projectName": "StudyMentorAPI",
+        "projectPath": "C:\\Users\\ramos\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\StudyMentorAPI.csproj",
+        "packagesPath": "C:\\Users\\ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramos\\RiderProjects\\Talleres-Backend\\StudyMentorAPI\\StudyMentorAPI\\obj\\",
+>>>>>>> 683792a76bf6a5f89ee5927ef56f061a68eb6975
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\ramos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 683792a76bf6a5f89ee5927ef56f061a68eb6975
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+=======
+          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+>>>>>>> 683792a76bf6a5f89ee5927ef56f061a68eb6975
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +99,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+>>>>>>> 683792a76bf6a5f89ee5927ef56f061a68eb6975
         }
       }
     }
